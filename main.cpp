@@ -95,23 +95,24 @@ enum STATE current_line_state(string line)
 Indent ii;
 std::ostream& operator<<(std::ostream& out, const Directory& d)
  {
+   /*first == name, second == File or Directory*/
    ii.push();
    for(auto it: d.subDirs)
     {
       ii.push();
-      out <<ii <<" \"" << it.first <<"\": {"<<endl;
+      out <<ii <<"\"" << it.first <<"\": {"<<endl;
       ii.push();
-      out <<ii << it.second <<" }" << endl;
+      out <<ii << it.second <<" }," << endl; /* recursion */
       ii.pop();
       ii.pop();
     }
-    for(auto it5: d.files)
+    for(auto it2: d.files)
     {
         ii.push();
-        out <<ii <<it5.first<<"\": {" <<endl;
+        out <<ii <<it2.first<<"\": {" <<endl;
         ii.pop();
         out<< ii<<"\t"<<"\"Size\": " <<
-        (it5.second).getSize() <<endl;
+        (it2.second).getSize() <<endl;
         ii.pop();
         out << ii<< "}," << endl;
     }
