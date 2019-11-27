@@ -1,0 +1,22 @@
+$ ls -l
+total 28
+drwxr-xr-x 10 marvin marvin 4096 Nov 17 16:23 You-Dont-Know-JS
+drwxr-xr-x  3 marvin marvin 4096 Nov 17 17:57 homework
+-rw-r--r--  1 marvin marvin 8429 Nov 17 16:28 log.txt
+drwxr-xr-x  2 marvin marvin 4096 Nov 13 22:12 pics
+-rwxr-xr-x  1 marvin marvin  268 Nov 17 16:14 traverse.sh
+$ cd ./You-Dont-Know-JS
+$ ls -l
+total 68
+-rw-r--r-- 1 marvin marvin  2720 Nov 17 16:23 CONTRIBUTING.md
+-rw-r--r-- 1 marvin marvin 19126 Nov 17 16:23 LICENSE.txt
+-rw-r--r-- 1 marvin marvin  3011 Nov 17 16:23 README.md
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 es-next-beyond
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 get-started
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 getting-started
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 objects-classes
+-rw-r--r-- 1 marvin marvin  9234 Nov 17 16:23 preface.md
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 scope-closures
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 sync-async
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 types-grammar
+$ cd ./.git

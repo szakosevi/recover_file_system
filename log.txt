@@ -1,0 +1,247 @@
+2$ ls -l
+total 28
+drwxr-xr-x 10 marvin marvin 4096 Nov 17 16:23 You-Dont-Know-JS
+drwxr-xr-x  3 marvin marvin 4096 Nov 17 17:57 homework
+-rw-r--r--  1 marvin marvin 8429 Nov 17 16:28 log.txt
+drwxr-xr-x  2 marvin marvin 4096 Nov 13 22:12 pics
+-rwxr-xr-x  1 marvin marvin  268 Nov 17 16:14 traverse.sh
+$ cd ./You-Dont-Know-JS
+$ ls -l
+total 68
+-rw-r--r-- 1 marvin marvin  2720 Nov 17 16:23 CONTRIBUTING.md
+-rw-r--r-- 1 marvin marvin 19126 Nov 17 16:23 LICENSE.txt
+-rw-r--r-- 1 marvin marvin  3011 Nov 17 16:23 README.md
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 es-next-beyond
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 get-started
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 getting-started
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 objects-classes
+-rw-r--r-- 1 marvin marvin  9234 Nov 17 16:23 preface.md
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 scope-closures
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 sync-async
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 16:23 types-grammar
+$ cd ./.git
+$ ls -l
+total 48
+-rw-r--r-- 1 marvin marvin   23 Nov 17 16:23 HEAD
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 branches
+-rw-r--r-- 1 marvin marvin  271 Nov 17 16:23 config
+-rw-r--r-- 1 marvin marvin   73 Nov 17 16:23 description
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 hooks
+-rw-r--r-- 1 marvin marvin 7106 Nov 17 16:23 index
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 info
+drwxr-xr-x 3 marvin marvin 4096 Nov 17 16:23 logs
+drwxr-xr-x 4 marvin marvin 4096 Nov 17 16:23 objects
+-rw-r--r-- 1 marvin marvin  321 Nov 17 16:23 packed-refs
+drwxr-xr-x 5 marvin marvin 4096 Nov 17 16:23 refs
+$ cd ./objects
+$ ls -l
+total 8
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 info
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 pack
+$ cd ./info
+$ ls -l
+total 0
+$ cd ..
+$ cd ./pack
+$ ls -l
+total 8244
+-r--r--r-- 1 marvin marvin  220004 Nov 17 16:23 pack-6e7404ca46270af4f2161e000e225c6c35a21afd.idx
+-r--r--r-- 1 marvin marvin 8218021 Nov 17 16:23 pack-6e7404ca46270af4f2161e000e225c6c35a21afd.pack
+$ cd ..
+$ cd ..
+$ cd ./hooks
+$ ls -l
+total 48
+-rwxr-xr-x 1 marvin marvin  478 Nov 17 16:23 applypatch-msg.sample
+-rwxr-xr-x 1 marvin marvin  896 Nov 17 16:23 commit-msg.sample
+-rwxr-xr-x 1 marvin marvin 3327 Nov 17 16:23 fsmonitor-watchman.sample
+-rwxr-xr-x 1 marvin marvin  189 Nov 17 16:23 post-update.sample
+-rwxr-xr-x 1 marvin marvin  424 Nov 17 16:23 pre-applypatch.sample
+-rwxr-xr-x 1 marvin marvin 1638 Nov 17 16:23 pre-commit.sample
+-rwxr-xr-x 1 marvin marvin 1348 Nov 17 16:23 pre-push.sample
+-rwxr-xr-x 1 marvin marvin 4898 Nov 17 16:23 pre-rebase.sample
+-rwxr-xr-x 1 marvin marvin  544 Nov 17 16:23 pre-receive.sample
+-rwxr-xr-x 1 marvin marvin 1492 Nov 17 16:23 prepare-commit-msg.sample
+-rwxr-xr-x 1 marvin marvin 3610 Nov 17 16:23 update.sample
+$ cd ..
+$ cd ./info
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 240 Nov 17 16:23 exclude
+$ cd ..
+$ cd ./refs
+$ ls -l
+total 12
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 heads
+drwxr-xr-x 3 marvin marvin 4096 Nov 17 16:23 remotes
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 tags
+$ cd ./remotes
+$ ls -l
+total 4
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 origin
+$ cd ./origin
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 32 Nov 17 16:23 HEAD
+$ cd ..
+$ cd ..
+$ cd ./heads
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 41 Nov 17 16:23 2nd-ed
+$ cd ..
+$ cd ./tags
+$ ls -l
+total 0
+$ cd ..
+$ cd ..
+$ cd ./logs
+$ ls -l
+total 8
+-rw-r--r-- 1 marvin marvin  188 Nov 17 16:23 HEAD
+drwxr-xr-x 4 marvin marvin 4096 Nov 17 16:23 refs
+$ cd ./refs
+$ ls -l
+total 8
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 heads
+drwxr-xr-x 3 marvin marvin 4096 Nov 17 16:23 remotes
+$ cd ./remotes
+$ ls -l
+total 4
+drwxr-xr-x 2 marvin marvin 4096 Nov 17 16:23 origin
+$ cd ./origin
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 188 Nov 17 16:23 HEAD
+$ cd ..
+$ cd ..
+$ cd ./heads
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 188 Nov 17 16:23 2nd-ed
+$ cd ..
+$ cd ..
+$ cd ..
+$ cd ./branches
+$ ls -l
+total 0
+$ cd ..
+$ cd ..
+$ cd ./sync-async
+$ ls -l
+total 448
+-rw-r--r-- 1 marvin marvin    518 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin  33275 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin  35185 Nov 17 16:23 apB.md
+-rw-r--r-- 1 marvin marvin  43081 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin  35453 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin 112094 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin  94947 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin  27637 Nov 17 16:23 ch5.md
+-rw-r--r-- 1 marvin marvin  48075 Nov 17 16:23 ch6.md
+-rw-r--r-- 1 marvin marvin    111 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin   1188 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./get-started
+$ ls -l
+total 144
+-rw-r--r-- 1 marvin marvin   432 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin  9346 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin 34169 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin 44069 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin 24015 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin 15136 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin  3337 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin   863 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./objects-classes
+$ ls -l
+total 420
+-rw-r--r-- 1 marvin marvin   475 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin 13758 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin 13508 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin 35682 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin 47037 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin 34893 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin 49502 Nov 17 16:23 ch5.md
+-rw-r--r-- 1 marvin marvin 49275 Nov 17 16:23 ch6.md
+-rw-r--r-- 1 marvin marvin  6631 Nov 17 16:23 fig1.png
+-rw-r--r-- 1 marvin marvin  3226 Nov 17 16:23 fig2.png
+-rw-r--r-- 1 marvin marvin  8049 Nov 17 16:23 fig3.png
+-rw-r--r-- 1 marvin marvin 61789 Nov 17 16:23 fig4.png
+-rw-r--r-- 1 marvin marvin 41534 Nov 17 16:23 fig5.png
+-rw-r--r-- 1 marvin marvin 21321 Nov 17 16:23 fig6.png
+-rw-r--r-- 1 marvin marvin   109 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin   798 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./types-grammar
+$ ls -l
+total 384
+-rw-r--r-- 1 marvin marvin    394 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin  22961 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin  16130 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin  43151 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin  25674 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin 102715 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin  61889 Nov 17 16:23 ch5.md
+-rw-r--r-- 1 marvin marvin  92252 Nov 17 16:23 fig1.png
+-rw-r--r-- 1 marvin marvin    107 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin    804 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./scope-closures
+$ ls -l
+total 252
+-rw-r--r-- 1 marvin marvin   569 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin  3305 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin  6728 Nov 17 16:23 apB.md
+-rw-r--r-- 1 marvin marvin  4603 Nov 17 16:23 apC.md
+-rw-r--r-- 1 marvin marvin 17288 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin 17442 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin 14895 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin 28033 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin  8066 Nov 17 16:23 ch5.md
+-rw-r--r-- 1 marvin marvin 27560 Nov 17 16:23 ch6.md
+-rw-r--r-- 1 marvin marvin 24395 Nov 17 16:23 fig1.png
+-rw-r--r-- 1 marvin marvin 75672 Nov 17 16:23 fig2.png
+-rw-r--r-- 1 marvin marvin   108 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin   948 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./es-next-beyond
+$ ls -l
+total 516
+-rw-r--r-- 1 marvin marvin    512 Nov 17 16:23 README.md
+-rw-r--r-- 1 marvin marvin    116 Nov 17 16:23 apA.md
+-rw-r--r-- 1 marvin marvin  10064 Nov 17 16:23 ch1.md
+-rw-r--r-- 1 marvin marvin 120769 Nov 17 16:23 ch2.md
+-rw-r--r-- 1 marvin marvin  94515 Nov 17 16:23 ch3.md
+-rw-r--r-- 1 marvin marvin  18063 Nov 17 16:23 ch4.md
+-rw-r--r-- 1 marvin marvin  20764 Nov 17 16:23 ch5.md
+-rw-r--r-- 1 marvin marvin  32491 Nov 17 16:23 ch6.md
+-rw-r--r-- 1 marvin marvin  63018 Nov 17 16:23 ch7.md
+-rw-r--r-- 1 marvin marvin  22834 Nov 17 16:23 ch8.md
+-rw-r--r-- 1 marvin marvin 107275 Nov 17 16:23 fig1.png
+-rw-r--r-- 1 marvin marvin    108 Nov 17 16:23 foreword.md
+-rw-r--r-- 1 marvin marvin   1266 Nov 17 16:23 toc.md
+$ cd ..
+$ cd ./getting-started
+$ ls -l
+total 4
+-rw-r--r-- 1 marvin marvin 87 Nov 17 16:23 README.md
+$ cd ..
+$ cd ..
+$ cd ./pics
+$ ls -l
+total 0
+-rw-r--r-- 1 marvin marvin 43008 Nov 13 22:12 funny-cat.gif
+$ cd ..
+$ cd ./homework
+$ ls -l
+total 4
+drwxr-xr-x 2 marvin marvin  4096 Nov 17 17:57 empty-dir
+-rw-r--r-- 1 marvin marvin 13312 Nov 13 22:11 log.txt
+-rw-r--r-- 1 marvin marvin     0 Nov 13 22:11 output.json
+$ cd ./empty-dir
+$ ls -l
+total 0
+$ cd ..
+$ cd ..
